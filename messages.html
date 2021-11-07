@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/f_mensaje.js"></script>
+    <link href ='diseno/diseno.css' rel='stylesheet' type ='text/css'>
+    
+   
+</head>
+
+<body>
+     <title>Mensajes</title>
+    <table>
+        <tr>
+            <td>Mensaje: </td>
+            <td>
+                <input type="text" id="idText" placeholder="text">
+                </input>
+            </td>
+        </tr>
+       
+    </table>
+    <button onclick="guardarInformacionMensajes()">Agregar </button>
+    <button onclick="traerInformacionMensaje()">Mostar </button>
+    <div>
+        <table>
+            <tbody id="tabla">
+
+            </tbody>
+        </table>
+    </div>
+    <div id="tabla_detalles"></div>
+    
+</body>
+</body>
+
+</html>

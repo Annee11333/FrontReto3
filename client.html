@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/f_cliente.js"></script>
+    <link href ='diseno/diseno.css' rel='stylesheet' type ='text/css'>
+</head>
+
+<body>
+    <title>Formulario ingreso de usuario</title>
+    <table>
+        
+        <tr>
+            <td>NAME: </td>
+            <td>
+                <input type="text" id="idName" placeholder="nombre">
+                </input>
+            </td>
+        </tr>
+        <tr>
+            <td>EMAIL: </td>
+            <td>
+                <input type="email" id="idEmail" placeholder="email">
+                </input>
+            </td>
+        </tr>
+        <tr>
+            <td>PASSWORD: </td>
+            <td>
+                <input type="number" id="idPassword" placeholder="password ">
+                </input>
+            </td>
+        </tr>
+        <tr>
+            <td>AGE: </td>
+            <td>
+                <input type="number" id="idAge" placeholder="edad">
+                </input>
+            </td>
+        </tr>
+
+    </table>
+    
+        <button onclick="guardarInformacionClientes()">Agregar usuario</button>
+        <button onclick="traerInformacionCliente()">Mostar usuario</button>
+    
+    <div id="tablaClientes"></div>
+    <div id="idDivConsulta"> </div>
+</body>
+
+</html>

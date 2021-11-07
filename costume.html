@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/f_disfraces.js"></script>
+    <link href='diseno/diseno.css' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+    <title>Formulario ingreso de disfraces</title>
+    <table>
+        <tr>
+            <td>NAME: </td>
+            <td>
+                <input type="text" id="idName" placeholder="name">
+                </input>
+            </td>
+        </tr>
+        <tr>
+            <td>BRAND: </td>
+            <td>
+                <input type="text" id="idBrand" placeholder="brand">
+                </input>
+            </td>
+        </tr>
+        <tr>
+            <td>MODEL: </td>
+            <td>
+                <input type="number" id="idYear" placeholder="model">
+                </input>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Descripción: </td>
+            <td>
+                <input type="text" id="idDescripcion" placeholder="descripción ">
+                </input>
+            </td>
+        </tr>
+
+    </table>
+    <button onclick="guardarInformacionCostume()">Agregar </button>
+    <button onclick="traerInformacionCostume()">Mostar </button>
+    <div id="resultado2"></div>
+    
+</body>
+
+</html>
